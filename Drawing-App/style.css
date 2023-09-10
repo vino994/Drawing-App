@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+.canvas{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+}
+.tools-box{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content:space-around;
+    padding: 30px;
+    background-color: #333;
+}
+.tools-box img{
+    display: none;
+}
+.tools-box button{
+    padding: 0px 20px;
+}
+#size{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.remove{
+    padding: 0 20px;
+   
+}
+.remove button{
+    padding: 10px;
+}
+#colorVal{
+    width: 50px;
+    height: 50px;
+}
